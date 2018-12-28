@@ -1,0 +1,42 @@
+Allgemein:
+
+Eingabe über ESP32
+Verarbeitung über Server
+Ausgabe an verschiedene Dienste
+    Telefunken fernseher
+    Samsung fernseher?
+    Youtube?
+    Spotify
+
+Intuitive Bedienung
+Einfache Konfiguration
+    Hinzufügen von weiteren diensten und eingaben
+
+Genau:
+
+Bewegungen:
+    Hand →
+        nächstes Element (z.B. Lied, Sender, ...)
+    
+    Hand ←
+        vorheriges Element
+    
+    Hand ↓
+        leiser
+    
+    Hand ↑
+        lauter
+
+    Hand drüber halten
+        stopp, eingabe
+        
+
+ESP32:
+    Sensoren zur erfassung der Bewegung der Hand
+    Programm das die Bewegungen interpretiert
+    Senden der Eingaben an den Server
+
+Server:
+    REST-Schnittstelle zum Empfangen von Eingaben
+    REST-Schnittstelle zum Bekanntgeben von änderungen
+    Direkte Verbindung zum Telefunkenfernseher und Spotify
